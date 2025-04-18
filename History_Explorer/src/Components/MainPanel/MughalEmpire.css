@@ -1,0 +1,79 @@
+.ruler-select{
+    appearance: none;
+    background-color: #fff7e6;
+    border: 2px solid #7b3f00;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4b2e1e;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0, 0.1);
+    cursor: pointer;
+}
+.ruler-select:hover{
+    background-color: #f8d510;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.ruler-select:focus{
+    outline: none;
+    border-color: #f5cbb7;
+    box-shadow: 0 0 0 3px rgba(254, 207, 51, 0.3);
+}
+.wiki-content table.infobox,
+.wiki-content .hatnote,
+.wiki-content .navbox,
+.wiki-content .mw-references-wrap {
+  display: none !important;
+}
+.wiki-content {
+    line-height: 1.6;
+    padding: 10px;
+}
+
+.wiki-heading {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #4b2e2e;
+}
+
+
+/* Main content */
+.wiki-content {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+
+/* Hover effect */
+.wiki-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(9, 9, 9, 0.12);
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
