@@ -82,8 +82,11 @@ History Timeline Explorer is an interactive and user-friendly designed to help u
 
 
 ## Deployed Links
-- **Frontend** {{https://history-explorer-frontend.onrender.com}}
-- **Backend** {{https://history-explorer-backend-4.onrender.com}}
+- **Frontend:** [https://history-explorer-frontend.onrender.com](https://history-explorer-frontend.onrender.com)
+- **Backend:** [https://history-explorer-backend-4.onrender.com](https://history-explorer-backend-4.onrender.com)
+  
+---
+
 ## Future Enhancements
 - Expand support for additional languages in the translation API.
 
