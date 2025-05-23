@@ -44,7 +44,7 @@ History Timeline Explorer is an interactive and user-friendly designed to help u
 ### Installation:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/nisha311003/History-Timeline-Frontend.git
+   git clone https://github.com/nisha311003/History_Timeline_Frontend.git
    cd History-Timeline-Explorer
    ```
 2. Install dependencies:
